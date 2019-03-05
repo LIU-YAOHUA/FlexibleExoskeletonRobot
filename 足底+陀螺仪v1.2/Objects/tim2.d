@@ -1,0 +1,9 @@
+.\objects\tim2.o: USER\src\tim2.c
+.\objects\tim2.o: .\USER\inc\tim2.h
+.\objects\tim2.o: .\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\objects\tim2.o: .\CMSIS\CM3\CoreSupport\core_cm3.h
+.\objects\tim2.o: C:\keil32\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tim2.o: .\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\objects\tim2.o: .\USER\inc\usart1.h
+.\objects\tim2.o: .\USER\inc\usart2.h
+.\objects\tim2.o: .\USER\inc\usart3.h

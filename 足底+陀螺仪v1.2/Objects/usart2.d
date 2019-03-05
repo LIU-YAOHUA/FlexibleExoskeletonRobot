@@ -1,0 +1,10 @@
+.\objects\usart2.o: USER\src\usart2.c
+.\objects\usart2.o: .\USER\inc\usart1.h
+.\objects\usart2.o: .\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\objects\usart2.o: .\CMSIS\CM3\CoreSupport\core_cm3.h
+.\objects\usart2.o: C:\keil32\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usart2.o: .\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\objects\usart2.o: .\USER\inc\usart2.h
+.\objects\usart2.o: .\USER\inc\usart3.h
+.\objects\usart2.o: C:\keil32\ARM\ARMCC\Bin\..\include\string.h
+.\objects\usart2.o: C:\keil32\ARM\ARMCC\Bin\..\include\stdio.h

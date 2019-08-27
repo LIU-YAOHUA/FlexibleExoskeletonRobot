@@ -1,0 +1,16 @@
+--cpu Cortex-M7.fp.dp
+".\objects\main.o"
+".\objects\control.o"
+".\objects\delay.o"
+".\objects\sys.o"
+".\objects\usart.o"
+".\objects\exti.o"
+".\objects\usart2.o"
+".\objects\usart3.o"
+".\objects\pwm.o"
+".\objects\startup_stm32f767xx.o"
+".\objects\system_stm32f7xx.o"
+--strict --scatter ".\Objects\RXWGG.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\RXWGG.map" -o .\Objects\RXWGG.axf

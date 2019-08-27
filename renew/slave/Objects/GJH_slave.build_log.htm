@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: meetwit meetwit, meetwit, LIC=FQQQD-851PR-RFJIZ-JG8P3-DSA4C-59YJM
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.26.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      UL2CM3.DLL V1.161.6.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+F:\git\FlexibleExoskeletonRobot\renew\slave\GJH_slave.uvprojx
+Project File Date:  08/27/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'GJH_slave'
+compiling thread_mw.c...
+compiling JY901.c...
+compiling mian.c...
+compiling usart1.c...
+compiling usart2.c...
+compiling usart3.c...
+compiling hx711.c...
+compiling xnumx.c...
+assembling context_rvds.S...
+assembling startup_stm32f10x_md.s...
+compiling cpuport.c...
+compiling components.c...
+compiling system_stm32f10x.c...
+compiling clock.c...
+compiling device.c...
+compiling idle.c...
+compiling irq.c...
+compiling ipc.c...
+compiling kservice.c...
+compiling object.c...
+compiling mem.c...
+compiling scheduler.c...
+compiling thread.c...
+compiling timer.c...
+compiling board.c...
+linking...
+Program Size: Code=16680 RO-data=616 RW-data=304 ZI-data=9000  
+".\Objects\GJH_slave.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.4.0.pack
+                ARM.CMSIS.5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.2
+
+Package Vendor: RealThread
+                https://www.rt-thread.org/download/mdk/RealThread.RT-Thread.3.1.2.pack
+                RealThread.RT-Thread.3.1.2
+                RT-Thread Software Components
+   * Component: kernel Version: 3.1.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\RTOS
+  .\RTE\_GJH_slave
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+  C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.2\include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.2
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\system_stm32f10x.c
+
+   * Component: RealThread.RT-Thread::RTOS:kernel:3.1.2
+      Source file:   src\idle.c
+      Source file:   bsp\board.c
+      Source file:   libcpu\arm\cortex-m3\context_rvds.S
+      Source file:   src\mem.c
+      Source file:   src\irq.c
+      Source file:   src\device.c
+      Source file:   src\timer.c
+      Source file:   src\scheduler.c
+      Source file:   src\clock.c
+      Source file:   src\ipc.c
+      Include file:  bsp\rtconfig.h
+      Source file:   src\object.c
+      Source file:   src\thread.c
+      Source file:   src\components.c
+      Source file:   src\kservice.c
+      Source file:   libcpu\arm\cortex-m3\cpuport.c
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
